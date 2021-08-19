@@ -1,0 +1,201 @@
+/* h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#users {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#users td,
+#users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#users tr:hover {
+    background-color: #ddd;
+}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(26, 63, 117);
+    color: white;
+} */
+
+.grid-view {
+    padding-bottom: 10px;
+    margin: 7px;
+    padding: 3px;
+    margin-top: 0;
+}
+
+.grid-view h3 {
+    line-height: 42px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+/* .grid-view:hover,
+.grid-view:active {
+    padding-bottom: 10px;
+    margin: 7px;
+    box-shadow: 1px 0px 2px 0;
+    padding: 3px;
+    border-radius: 0 0 11px 11px;
+    border-bottom: 3px solid #000;
+    margin-top: 0;
+    height: 97px;
+    width: 73%;
+} */
+
+.icon {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    float: left;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.title-grid {
+    margin-left: 13px;
+    padding-top: 1px;
+    float: left;
+}
+
+.title-grid h3 {
+    margin: 0px;
+    font-size: 18px;
+    color: #182880;
+    font-weight: 500;
+}
+
+.title-grid p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #292828;
+}
+
+.mat-raised-button:not([class*=mat-elevation-z]) {
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    width: 73%;
+}
+
+.box {
+    box-shadow: 1px 3px 5px 0 rgb(0 0 0 / 34%);
+    border-radius: 9px;
+    /* margin-left: 9%; */
+    height: 264px;
+}
+
+.box h4 {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 18px 0 9px 53px;
+}
+
+.user1 {
+    margin-left: 55px;
+    box-shadow: 1px 2px 6px 0 rgb(138 132 132 / 11%);
+    background: #d4d4d43b;
+    border-radius: 8px;
+    width: 88%;
+    margin-top: 42px;
+}
+
+.user1 mat-icon {
+    padding-top: 1px;
+}
+
+.user1 h5 {
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+
+.user1 p {
+    padding: 10px;
+}
+
+.view-box {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 17px;
+}
+
+.content-grid {
+    margin-left: 19px;
+}
+
+.content-grid h3 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 12px;
+    color: #000;
+    font-weight: 500;
+}
+
+.content-grid p {
+    margin: 0;
+    font-size: 15px;
+    color: #7a7e82;
+    font-weight: 500;
+}
+
+.description h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: #000;
+    margin-left: 28px;
+    margin-top: 28px;
+}
+
+.list {
+    background: white;
+    padding: 27px;
+}
+
+.description p {
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 52px 0 43px;
+}
+
+button.mat-focus-indicator.mat-fab.mat-button-base.mat-primary {
+    float: right;
+    top: 83%;
+    position: fixed;
+    left: 90%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.open-box {
+    position: absolute;
+    top: 51%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    right: 0;
+}
+
+
+/* @media only screen(min-width:320px to max-width:768px)
+{
+
+} */

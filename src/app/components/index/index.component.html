@@ -1,0 +1,77 @@
+<main>
+    <!-- <div class="col-md-12"> -->
+    <section class="list">
+        <h1><b>Task's</b></h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <mat-nav-list>
+                        <div *ngFor="let row of rows" (click)="openBox(row)">
+                            <div class="grid-view">
+                                <button mat-raised-button>
+                  <div class="icon" [style.background]="row.bgColor">
+                    <h3>{{ row.firstLetter }}</h3>
+                  </div>
+                  <div class="title-grid">
+                    <p matLine>{{ row.taskName }}</p>
+                    <p matLine>{{ row.date }}</p>
+                  </div>
+                </button>
+                            </div>
+                        </div>
+                    </mat-nav-list>
+                </div>
+                <div class="col-md-8 box" *ngIf="showBody">
+                    <div class="view-box">
+                        <div class="icon">
+                            <h3>N</h3>
+                        </div>
+                        <div class="content-grid">
+                            <h3>{{ allData.taskName }}</h3>
+                            <p>{{ allData.date }}</p>
+                            <!-- <a></a> -->
+                            <a href="#" target="_blank">{{ allData.github }}</a>
+                        </div>
+                        <div class="open-box">
+                            <a mat-raised-button href="#" target="_blank">Open<mat-icon>launch</mat-icon></a
+              >
+            </div>
+          </div>
+          <div class="description">
+            <h4>Description</h4>
+            <p>
+              Fake email generators are temporary mailboxes that allows to send
+              and receive messages. You can use these online email generators to
+              avoid leaking your confidential information, advertising mailings,
+              send email without being tracked, and spam emails.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section></section>
+
+  <!-- </div> -->
+  <button mat-fab color="primary" (click)="openDialog()">
+    <mat-icon>add</mat-icon>
+  </button>
+</main>
+
+<!-- <h4>Mail Box</h4> -->
+<!-- <section class="box" *ngIf="showBody">
+        <div class="grid-view1">
+            <h4>
+                <mat-icon>message</mat-icon>{{allData.topic}}
+            </h4>
+            <div class="user1" *ngFor="let allmessages of allData.AllMessages">
+            <h5>
+                    <mat-icon>account_circle</mat-icon>
+                    {{allData.Name}}</h5>
+                <h6>{{allData.Email}}</h6>
+                <p>{{allmessages}}</p>
+            </div>
+        </div>
+        <input type="text" placeholder="Type Your Message">
+    </section> -->

@@ -1,0 +1,20 @@
+label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+.mat-dialog-actions {
+    float: right;
+}
+
+.mat-dialog-content {
+    height: 340px;
+}
+
+textarea {
+    height: 20px;
+}
